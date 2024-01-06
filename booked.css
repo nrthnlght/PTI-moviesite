@@ -1,0 +1,165 @@
+*{
+    font-family: "courier", monospace;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('photos/rt.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: inherit;
+    height: 150vh;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.icon{
+    margin-left: 15px;
+    margin-top:30px;
+}
+
+.icon h1{
+    color : #007C5D;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.nav{
+    display: flex;
+    overflow: hidden;
+}
+
+.nav ul{
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 25px;
+    color: rgb(227,738,227);
+    font-size: 15px;
+}
+
+.nav ul li a:hover{
+    color : #007C5D;
+    font-weight: bolder;
+}
+
+.user{
+    cursor: pointer;
+    color : #007C5D;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.user a{
+    text-decoration: none;
+    color: white;
+    background-color: #007C5D;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+.user a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*header end*/
+
+.konten{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.each{
+    border-bottom: 3px solid #ddd;
+    padding: 15px 0;
+    
+}
+
+.each.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+#phead{
+    font-size: 23px;
+    color: #007C5D;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left : 25%;
+}
+
+#btn-head{
+    color: #35b48c;
+    background-color: white;
+    border: none;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#btn-head: hover {
+    cursor: pointer;
+}
+
+#btn-head: focus {
+    outline: 0;
+}
+
+.each .ket{
+    display: flex;
+}
+
+.each .ket img {
+    width:30%;
+    border-radius: 5px;
+} 
+
+.each .ket h2{
+    margin-left: 15px;
+    color: whitesmoke;
+}
+
+.each .ket h1{
+    margin-left: 15px;
+    color :#007C5D;
+}
+
+.ket div {
+    width: 100%;
+}
+
+.some-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 70px;
+}
+
+span{
+    font-size: 25px;
+    padding-left: 8px;
+}
+
+.fa.heart{
+    color: red;
+}
+
+.fa.trash{
+    color: #777;
+}
